@@ -1,0 +1,66 @@
+/* Estilos CSS para as imagens e frases */
+body {
+    font-family: Oswald, sans-serif;
+    background-color: #b8f88c; /* Alteração: Fundo verde */
+    color: #fff; /* Alteração: Texto branco */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Alteração: Centralizar conteúdo verticalmente */
+}
+
+header {
+    background-color: transparent;
+    padding: 20px 0;
+}
+
+#title {
+    font-size: 35px; /* Alteração: Tamanho de fonte maior para o título */
+    color: #55942f; /* Alteração: Título branco */
+}
+
+#title2 {
+    font-size: 24px; /* Alteração: Tamanho de fonte maior para o título */
+    color: #fff; /* Alteração: Título branco */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.button-item {
+    flex: 1;
+    text-align: center;
+    margin: 5px;
+    padding: 25px;
+    background-color: #55942f;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizar conteúdo horizontalmente */
+}
+
+.button-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff; /* Alteração: Texto branco */
+    max-width: 90%; /* Limite de largura do subtítulo */
+}
+
+.button-item p {
+    font-size: 14px; /* Tamanho de fonte menor para a frase */
+    margin-top: 10px;
+    color: #fff; /* Alteração: Texto branco */
+    max-width: 90%; /* Limite de largura da frase */
+}
